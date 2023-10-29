@@ -5,6 +5,10 @@
     <link>http://deepcloud520.github.io/categories/</link>
     <description>Recent content in Categories on archotechsporeeta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="http://deepcloud520.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    
+	<atom:link href="http://deepcloud520.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

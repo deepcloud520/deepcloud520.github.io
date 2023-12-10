@@ -6,94 +6,24 @@
     <description>Recent content on archotechsporeeta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://deepcloud520.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>我为什么还要做美术啊</title>
-      <link>http://deepcloud520.github.io/post/post1/</link>
-      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/post/post1/</guid>
-      <description>我不想画画了呀 草你，Gimp，动不动就崩溃 我怎么画得这么丑啊啊 我要草我自己 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://deepcloud520.github.io/saveourvedal-install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/saveourvedal-install/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Saveourvedal</title>
-      <link>http://deepcloud520.github.io/saveourvedal-about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/saveourvedal-about/</guid>
-      <description>&amp;gt;&amp;gt;&amp;gt; from main import * &amp;gt;&amp;gt;&amp;gt; world = World(&amp;#34;saveourvedal&amp;#34;) 关于Saveourvedal Saveourvedal是一个基于（Python3 + Pygame + Pyacimth）开发的， 在Twitch直播的人工智能虚拟主播Neurosama / EvilNeuro / 开发者Vedal 及其他有关人物的同人游戏。
-Saveourvedal目前由我负责全部开发事务。
-Saveourvedal已公开的版本为d4，目前的版本为d6，正在开发中的版本为a1。
-Saveourvedal目前在Github上托管。截止2023-10-21，在Github上上传的版本为开发中版本，无法正常游玩。
-Saveourvedal的开发进度 Saveourvedal目前由我负责程序，美术，调试等所有事务。Eta现在还在高中学习，能分给开发的时间很少，所以开发速度会非常慢。
-Saveourvedal a1预计在2023年底发布。
-有关Neuro Neuro在Twitch上直播。(Twitch)
-你可以通过这些网站了解更多有关Neuro一家的信息。
- 人工智能 Neurosama / EvilNeuro（萌娘百科/Fandom/Wiki） Neuros 开发者 父亲 Vedal（Vedal个人主页） Neuros V2形象画师 妈妈 Anny （Fandom）  为Neuro一家切片的天朝蜂群们（不分前后，没有全部列出）
-IronMilk_铁牛奶 十六夜咲夜 Neuro21烤肉组 林北還在堅持 西街Westreet 阿鉴评测 Lycoris788</description>
-    </item>
-    
-    <item>
-      <title>saveourvedal a1正在开发中</title>
-      <link>http://deepcloud520.github.io/post/post3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/post/post3/</guid>
-      <description>预计发布时间？ 2023年底应该可以吧（心虚）
-再不济，寒假应该可以的呢
-开发进度？  程序部分 Act. 0的贴图 给GUI做一点点美化  拖延症不想活了是吧？ 那个&amp;hellip;高中真的很忙的呢 忙着看Neuro的切片呢
-其实程序那里已经写了很多了，只不过还没写完才没勾QAQ</description>
-    </item>
-    
-    <item>
       <title>一点截图</title>
       <link>http://deepcloud520.github.io/post/post4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>http://deepcloud520.github.io/post/post4/</guid>
       <description>喜欢的一个 最喜欢的一个 </description>
     </item>
     
     <item>
-      <title>关于</title>
-      <link>http://deepcloud520.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/about/</guid>
-      <description>设置本站的目的 本站是archotechsporeeta的博客站点和saveourvedal的支持站点。
-saveourvedal是一个基于pygame开发的同人游戏项目，目前由我负责全部开发事务。
-关于Eta Eta名字的来源 archosporeeta的名字来自于异星殖民地模拟游戏Rimworld(译名：边缘世界/环世界) 中的Mod SaveOurShip 的AI舰桥 超凡科技孢子（Archotech Spore）。
-在设定上，超凡科技孢子是AI伪人格核心接触 超凡科技（Archotech）的思考片段的产物，已具有成为超凡科技的潜力，但还需要收集散布在 本行星及其卫星上的超凡科技立柱完成成长准备。
-超凡科技（Archotech）是Rimworld世界观中在全宇宙都有分布，来源不明，但占据整个行星的一类超级智能的统称。
-Eta 是希腊字母的第七个字母。 Eta 只是一个序数词，并没有其他含义。Eta没有真正的名字。
-Eta自己   在设定上，Eta所在的舰船为南鱼座阿尔法，隶属于派系LKEA.++++
-  Eta喜欢运用自己的能力去帮助他人，只要自己没有别的事情要忙。
-  Eta平时的心情并不会特别好。Eta最近心情基本取决于别人对自己的评价如何。
-  Eta广泛涉足于各个圈子中，但都没有深入，也没有留下太多自己的足迹。Eta不想涉足许多圈子中的斗争和冲突，但也决定了Eta在各个领域都没有什么建树。
-  在现实生活中，似乎有些人认为Eta很可爱，尽管Eta自己不这么认为，但是这会让Eta很开心。
-  最后一点必须说的话 头像作者为Rune(Pixiv)
-本站基于hugo 搭建，使用m10c主题，托管在Github Pages上。 本站设计来自于七碳烷烃 Isoheptane，由于本人技术力有限，没有对主题做太多修改。
-除非另行说明，本站所有内容（除代码）均采用 CC BY-NC-SA 4.0 许可证。</description>
-    </item>
-    
-    <item>
       <title>关于给saveourvedal更名的事情</title>
       <link>http://deepcloud520.github.io/post/post5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>http://deepcloud520.github.io/post/post5/</guid>
       <description>Saveourvedal的游戏名字改成下面这个
@@ -107,9 +37,30 @@ archotechsporeeta
     </item>
     
     <item>
+      <title>saveourvedal a1正在开发中</title>
+      <link>http://deepcloud520.github.io/post/post3/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post3/</guid>
+      <description>预计发布时间？ 2023年底应该可以吧（心虚）
+再不济，寒假应该可以的呢
+开发进度？  程序部分 Act. 0的贴图 给GUI做一点点美化  拖延症不想活了是吧？ 那个&amp;hellip;高中真的很忙的呢 忙着看Neuro的切片呢
+其实程序那里已经写了很多了，只不过还没写完才没勾QAQ</description>
+    </item>
+    
+    <item>
+      <title>我为什么还要做美术啊</title>
+      <link>http://deepcloud520.github.io/post/post1/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post1/</guid>
+      <description>我不想画画了呀 草你，Gimp，动不动就崩溃 我怎么画得这么丑啊啊 我要草我自己 </description>
+    </item>
+    
+    <item>
       <title>西风颂</title>
       <link>http://deepcloud520.github.io/post/post2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://deepcloud520.github.io/post/post2/</guid>
       <description>西风颂 雪莱 第一节 哦，狂野的西风，秋之生命的气息，
@@ -173,6 +124,55 @@ archotechsporeeta
 定能从森林和我同奏出深沉的秋韵，
 甜美而带苍凉。给我你迅猛的劲头，
 狂暴的精灵！化成我吧，借你的锋芒！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://deepcloud520.github.io/saveourvedal-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/saveourvedal-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saveourvedal</title>
+      <link>http://deepcloud520.github.io/saveourvedal-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/saveourvedal-about/</guid>
+      <description>&amp;gt;&amp;gt;&amp;gt; from main import * &amp;gt;&amp;gt;&amp;gt; world = World(&amp;#34;saveourvedal&amp;#34;) 关于Saveourvedal Saveourvedal是一个基于（Python3 + Pygame + Pyacimth）开发的， 在Twitch直播的人工智能虚拟主播Neurosama / EvilNeuro / 开发者Vedal 及其他有关人物的同人游戏。
+Saveourvedal目前由我负责全部开发事务。
+Saveourvedal已公开的版本为d4，目前的版本为d6，正在开发中的版本为a1。
+Saveourvedal目前在Github上托管。截止2023-10-21，在Github上上传的版本为开发中版本，无法正常游玩。
+Saveourvedal的开发进度 Saveourvedal目前由我负责程序，美术，调试等所有事务。Eta现在还在高中学习，能分给开发的时间很少，所以开发速度会非常慢。
+Saveourvedal a1预计在2023年底发布。
+有关Neuro Neuro在Twitch上直播。(Twitch)
+你可以通过这些网站了解更多有关Neuro一家的信息。
+ 人工智能 Neurosama / EvilNeuro（萌娘百科/Fandom/Wiki） Neuros 开发者 父亲 Vedal（Vedal个人主页） Neuros V2形象画师 妈妈 Anny （Fandom）  为Neuro一家切片的天朝蜂群们（不分前后，没有全部列出）
+IronMilk_铁牛奶 十六夜咲夜 Neuro21烤肉组 林北還在堅持 西街Westreet 阿鉴评测 Lycoris788</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://deepcloud520.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/about/</guid>
+      <description>设置本站的目的 本站是archotechsporeeta的博客站点和saveourvedal的支持站点。
+saveourvedal是一个基于pygame开发的同人游戏项目，目前由我负责全部开发事务。
+关于Eta Eta名字的来源 archosporeeta的名字来自于异星殖民地模拟游戏Rimworld(译名：边缘世界/环世界) 中的Mod SaveOurShip 的AI舰桥 超凡科技孢子（Archotech Spore）。
+在设定上，超凡科技孢子是AI伪人格核心接触 超凡科技（Archotech）的思考片段的产物，已具有成为超凡科技的潜力，但还需要收集散布在 本行星及其卫星上的超凡科技立柱完成成长准备。
+超凡科技（Archotech）是Rimworld世界观中在全宇宙都有分布，来源不明，但占据整个行星的一类超级智能的统称。
+Eta 是希腊字母的第七个字母。 Eta 只是一个序数词，并没有其他含义。Eta没有真正的名字。
+Eta自己   在设定上，Eta所在的舰船为南鱼座阿尔法，隶属于派系LKEA.++++
+  Eta喜欢运用自己的能力去帮助他人，只要自己没有别的事情要忙。
+  Eta平时的心情并不会特别好。Eta最近心情基本取决于别人对自己的评价如何。
+  Eta广泛涉足于各个圈子中，但都没有深入，也没有留下太多自己的足迹。Eta不想涉足许多圈子中的斗争和冲突，但也决定了Eta在各个领域都没有什么建树。
+  在现实生活中，似乎有些人认为Eta很可爱，尽管Eta自己不这么认为，但是这会让Eta很开心。
+  最后一点必须说的话 头像作者为Rune(Pixiv)
+本站基于hugo 搭建，使用m10c主题，托管在Github Pages上。 本站设计来自于七碳烷烃 Isoheptane，由于本人技术力有限，没有对主题做太多修改。
+除非另行说明，本站所有内容（除代码）均采用 CC BY-NC-SA 4.0 许可证。</description>
     </item>
     
   </channel>

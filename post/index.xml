@@ -6,10 +6,21 @@
     <description>Recent content in Posts on archotechsporeeta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://deepcloud520.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>最近在忙的事情</title>
+      <link>http://deepcloud520.github.io/post/post6/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post6/</guid>
+      <description>1.画了Evil的贴图 但是很丑（这就是为什么鸽了六个月的原因）
+2.重写了MainInterfaceRunable的reload函数，将大概800行的reload分拆成5个函数
+3.重装了3遍系统，最后发现只要sudo apt upgrade 就会黑屏无法进入系统</description>
+    </item>
     
     <item>
       <title>wo you huan le yi ge TF ca lai qi dong station p2</title>
@@ -133,17 +144,6 @@ archotechsporeeta
 定能从森林和我同奏出深沉的秋韵，
 甜美而带苍凉。给我你迅猛的劲头，
 狂暴的精灵！化成我吧，借你的锋芒！</description>
-    </item>
-    
-    <item>
-      <title>最近在忙的事情</title>
-      <link>http://deepcloud520.github.io/post/post6/</link>
-      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/post/post6/</guid>
-      <description>1.画了Evil的贴图 但是很丑（这就是为什么鸽了六个月的原因）
-2.重写了MainInterfaceRunable的reload函数，将大概800行的reload分拆成5个函数
-3.重装了3遍系统，最后发现只要sudo apt upgrade 就会黑屏无法进入系统</description>
     </item>
     
   </channel>

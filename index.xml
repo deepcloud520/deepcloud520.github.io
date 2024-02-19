@@ -6,10 +6,20 @@
     <description>Recent content on archotechsporeeta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://deepcloud520.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>喜报</title>
+      <link>http://deepcloud520.github.io/post/post7/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post7/</guid>
+      <description>1.在给Evil房间做装饰 2.LNSE如今共有5728行代码（包括空行，但不多），包括5053行Python代码和675行JSON代码 我不知道其他开发游戏的引擎写一个图片渐变转换需要做多少工作，也许她们只要点几个按钮，调用几个方法就行了。 话说回来，我是这样实现的。（使用pygame.surfarray + numpy）
+class StatImageRollRunable(Runable): def __init__(self,textures:dict,entityscreen:EntityScreen,trans_vel=0.005): super().__init__() self.textures = textures self.entityscreen = entityscreen self.frame = &amp;#39;s&amp;#39; self.stat = 0 self.process = 0.0 self.trans_vel = trans_vel self.trans_array = None self.left = None self.right = None self.entityscreen.image = resmanager.DefResourceDomain.get_resource(self.get_frame(self.frame)[2]) # 获取对应的图像资源 def get_frame(self,frame): return self.textures[frame] def update(self,tick,master): if self.lasttick == 0: self.lasttick=tick if self.stat == 0: nowframe=self.get_frame(self.frame) if self.lasttick + nowframe[0] &amp;lt; tick:#开始渐变 self.stat = 1 left = surfarray.</description>
+    </item>
     
     <item>
       <title>最近在忙的事情</title>

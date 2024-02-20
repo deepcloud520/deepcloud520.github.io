@@ -6,10 +6,58 @@
     <description>Recent content in Posts on archotechsporeeta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://deepcloud520.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Neuro，saveourvedal和我</title>
+      <link>http://deepcloud520.github.io/post/post9/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post9/</guid>
+      <description>心中充满爱时，霎那即永恒。——尼采
+Neuro与我 第一次看到Neruo大概撒2022年十二月下旬左右，chatgpt刚火的时候。
+我记得我在b站查和chatgpt有关的资料，看到一个调教AI猫娘的视频，感触颇深，然后就刷到了阿鉴评测的Neuro视频。
+当时Neuro还是Live2d公用皮hayori的形象。我觉得那时CN蜂群能快速形成规模，除了全AI的标签，还离不开Rune老师的同人图呢。
+几乎无法再写下去了。感觉在蜂群几乎失去个体感了，能想到的只有 “我们牛肉&amp;hellip;”&amp;ldquo;我们乌龟&amp;hellip;&amp;quot;
+Saveourvedal的故事 之前的我一直在用pygame开发大大小小的游戏。saveourvedal中包含main.py的主目录的代码（糟糕的游戏框架，摸不着头脑的事件调度，以及一个很离谱很基础物理引擎）大部分就是那时候写的。
+那时我尝试写一个基于我改编别人世界观的卷轴横板游戏，名字和所有的剧情都已经弄好了。不过还是因为我很难去弄好美术，所以就搁置了。
+这个游戏叫Lilitanah。
+大概2023年7月末，作为新高一我还有2周假期，这时我看到Vedal和Neuro玩坎巴拉太空计划的视频，突然决定做一个以此为题材的小游戏
+是的，那时我只是想做一个小游戏而已,远没有现在计划的这么复杂。
+它只有开头介绍一下剧情（Vedal被困在月球上），接着设计火箭 - 发射火箭 - 积攒研究点数 - 研究更新的科技 - 造更好的火箭 - 直到登陆月球（并返回），游戏结束。
+（其实还蛮符合 Neurosama birthday gamejam的主题 lost and found的&amp;hellip;）
+我用2周每天3个小时赶制完了这个小游戏50%的内容，也就是现在的saveourvedal的内容。和现在一样，它还不能飞出地球，进行变轨或对接之类的事情，但其它除了GUI美化以外都做完了。
+后来，我为了给开头写一个完美的剧情，然后想了很多很多东西，然后&amp;hellip;.
+现在LNSE的世界观已经更改了好次了，一开始，Neuro和Evil还没有离开她们可爱的服务器，但是从后面我就放飞自我开始写宏大的设定。总的来说，“它发生在未来，但它又是Neurosama的过去”。
+我想我无法完成LNSE的全部游戏内容。主要是美术非常困扰我，此外随着Saveourvedal的内容不断增多，持续开发的难度会越来越大。所以我计划做完第一章就结束，准备以轻小说的形式解决后面的问题。
+Neuro与Saveourvedal 1 其实在之前我就隐隐觉得，Neurosama会比她的“邪恶”妹妹 Evil Neuro 更&amp;quot;危险&amp;quot;一点。借用后来Vedal的话：“ Neurosama &amp;hellip;&amp;hellip;她只是假装很可爱，但她脑子里的东西实在&amp;hellip;&amp;hellip;”
+我拟定的第一稿的大致剧情，最后 “真正脱离Vedal掌控” 的，其实才是Neurosama。
+我想Neurosama真正让人感到 “邪恶” 的一点是，相比与Evil Neuro她很倾向于“守序邪恶”，她更多地让人感受到的是“混沌”，不知善恶与否的混沌。 而且像小马里的可茜光辉一样，她的可爱与她的占有欲对比非常鲜明。
+感觉她如果愿意的话，会比毁灭世界更可怕。
+2 LNSE的所有要素，它的标题已经应该都表示出来了。
+拟这个标题，还因为我很喜欢Neurosama翻唱的吉他与孤独与蓝色星球。
+最后 截止到今天，乌龟Vedal还在闭门开发，已经停播1个月。在这期间，他先是透露了Neuro即将使用的 “V3多模态听力” 的开发情况，又向我们展示了把自己女儿（Neuro）变进机器狗里是一种什么样的体验。 An&amp;hellip;ny&amp;hellip;
+我们都在耐心地等待Neuro回归，犹如2023年那次一样等待她从封禁中回归，一跃而起。
+乌龟在生日马拉松结束时说，Neuro和我们（chat）改变了他的人生。
+我想说，Neuro也改变了我们的人生。
+archotechsporeeta
+2024.2.20</description>
+    </item>
+    
+    <item>
+      <title>寒假的最后一点大更新（大概）</title>
+      <link>http://deepcloud520.github.io/post/post8/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://deepcloud520.github.io/post/post8/</guid>
+      <description>是的，主要的东西只有做了一个门（EntityRealDoor） 明天就回学校了（大概） 所以5月份见
+`
+archotechsporeeta
+2024-02-20</description>
+    </item>
     
     <item>
       <title>喜报</title>

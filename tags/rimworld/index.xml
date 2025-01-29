@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rimworld on archotechsporeeta</title>
+    <link>http://deepcloud520.github.io/tags/rimworld/</link>
+    <description>Recent content in Rimworld on archotechsporeeta</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://deepcloud520.github.io/tags/rimworld/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rimworld Mod开发一个HelloWorld踩过的坑</title>
+      <link>http://deepcloud520.github.io/post/post12/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://deepcloud520.github.io/post/post12/</guid>
+      <description>关于开发Rimworld C# Dll Rimworld Wiki在这方面介绍的很好&#xA;在dll开发方面，Mod开发示例——瘟疫枪可以说是保姆级教程，&#xA;虽然我自己踩了很多很蠢的坑就是了&#xA;1. 古有海星地联大战最终能量一小时，今有Eta大战.net framework三小时 Visual Studio新建项目的时候一定要选 * .Net 类库 （Framework） * !!!!,不是 .Net 类库!!用.Net Sdk 8你就等死吧&#xA;2.dotpeak,ilSpy其实不是必须的（大概），VS自带C#反编译器 3.还有我打开的金鼠鼠Mod源码怎么引用那些Dll啊 using RimWorld; using Verse; namespace mymod { [StaticConstructorOnStartup] public static class HelloWorld { static HelloWorld() { Log.Message(&amp;#34;my mod is running!!&amp;#34;); } } } </description>
+    </item>
+  </channel>
+</rss>

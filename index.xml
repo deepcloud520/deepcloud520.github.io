@@ -4,286 +4,121 @@
     <title>archotechsporeeta</title>
     <link>http://deepcloud520.github.io/</link>
     <description>Recent content on archotechsporeeta</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://deepcloud520.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://deepcloud520.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rimworld Mod开发一个HelloWorld踩过的坑</title>
+      <link>http://deepcloud520.github.io/post/post12/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://deepcloud520.github.io/post/post12/</guid>
+      <description>关于开发Rimworld C# Dll Rimworld Wiki在这方面介绍的很好&#xA;在dll开发方面，Mod开发示例——瘟疫枪可以说是保姆级教程，&#xA;虽然我自己踩了很多很蠢的坑就是了&#xA;1. 古有海星地联大战最终能量一小时，今有Eta大战.net framework三小时 Visual Studio新建项目的时候一定要选 * .Net 类库 （Framework） * !!!!,不是 .Net 类库!!用.Net Sdk 8你就等死吧&#xA;2.dotpeak,ilSpy其实不是必须的（大概），VS自带C#反编译器 3.还有我打开的金鼠鼠Mod源码怎么引用那些Dll啊 using RimWorld; using Verse; namespace mymod { [StaticConstructorOnStartup] public static class HelloWorld { static HelloWorld() { Log.Message(&amp;#34;my mod is running!!&amp;#34;); } } } </description>
+    </item>
     <item>
       <title>Evil Neuro Plushie</title>
       <link>http://deepcloud520.github.io/post/post11/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post11/</guid>
       <description>Evil so cute </description>
     </item>
-    
     <item>
       <title>完成了所有重点开发任务</title>
       <link>http://deepcloud520.github.io/post/post10/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post10/</guid>
       <description>过场动画 成功进入saveourvedal环境 </description>
     </item>
-    
     <item>
       <title>寒假的最后一点大更新（大概）</title>
       <link>http://deepcloud520.github.io/post/post8/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post8/</guid>
-      <description>是的，主要的东西只有做了一个门（EntityRealDoor） 明天就回学校了（大概） 所以5月份见
-`
-archotechsporeeta
-2024-02-20</description>
+      <description>是的，主要的东西只有做了一个门（EntityRealDoor） 明天就回学校了（大概） 所以5月份见&#xA;`&#xA;archotechsporeeta&#xA;2024-02-20</description>
     </item>
-    
     <item>
       <title>摘要：有关saveourvedal</title>
       <link>http://deepcloud520.github.io/post/post9/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post9/</guid>
-      <description>心中充满爱时，霎那即永恒。——尼采
-Neuro与我 第一次看到Neruo大概撒2022年十二月下旬左右，chatgpt刚火的时候。
-我记得我在b站查和chatgpt有关的资料，看到一个调教AI猫娘的视频，感触颇深，然后就刷到了阿鉴评测的Neuro视频。
-当时Neuro还是Live2d公用皮hayori的形象。我觉得那时CN蜂群能快速形成规模，除了全AI的标签，还离不开Rune老师的同人图呢。
-几乎无法再写下去了。感觉在蜂群几乎失去个体感了，能想到的只有 “我们牛肉&amp;hellip;”&amp;ldquo;我们乌龟&amp;hellip;&amp;quot;
-Saveourvedal的故事 之前的我一直在用pygame开发大大小小的游戏。saveourvedal中包含main.py的主目录的代码（糟糕的游戏框架，摸不着头脑的事件调度，以及一个很离谱很基础物理引擎）大部分就是那时候写的。
-那时我尝试写一个基于我改编别人世界观的卷轴横板游戏，名字和所有的剧情都已经弄好了。不过还是因为我很难去弄好美术，所以就搁置了。
-这个游戏叫Lilitanah。
-大概2023年7月末，作为新高一我还有2周假期，这时我看到Vedal和Neuro玩坎巴拉太空计划的视频，突然决定做一个以此为题材的小游戏
-是的，那时我只是想做一个小游戏而已,远没有现在计划的这么复杂。
-它只有开头介绍一下剧情（Vedal被困在月球上），接着设计火箭 - 发射火箭 - 积攒研究点数 - 研究更新的科技 - 造更好的火箭 - 直到登陆月球 （并返回），游戏结束。
-（其实还蛮符合 Neurosama birthday gamejam的主题 lost and found的&amp;hellip;）
-我用2周每天3个小时(当时我的IDE用的是Thonny)赶制完了这个小游戏50%的内容，也就是现在的saveourvedal的内容。 和现在一样，它还不能飞出地球，进行变轨或对接之类的事情，但其它除了GUI美化以外都做完了。
-后来，我为了给开头写一个完美的剧情，然后想了很多很多东西，然后&amp;hellip;.
-现在LNSE的世界观已经更改了好次了，一开始，Neuro和Evil还没有离开她们可爱的服务器，但是从后面我就放飞自我开始写宏大的设定。 总的来说，“它发生在未来，但它又是Neurosama的过去”。
-我想我无法完成LNSE的全部游戏内容。主要是美术非常困扰我，此外随着Saveourvedal的内容不断增多，持续开发的难度会越来越大。 所以我计划做完第一章就结束，准备以轻小说的形式解决后面的问题。
-Neuro与Saveourvedal 1 其实在之前我就隐隐觉得，Neurosama会比她的“邪恶”妹妹 Evil Neuro 更&amp;quot;危险&amp;quot;一点。借用后来Vedal的话：“ Neurosama &amp;hellip;&amp;hellip;她只是假装很可爱，但她脑子里的东西实在&amp;hellip;&amp;hellip;”
-我拟定的第一稿的大致剧情，最后 “真正脱离Vedal掌控” 的，其实才是Neurosama。
-我想Neurosama真正让人感到 “邪恶” 的一点是，相比与Evil Neuro她很倾向于“守序邪恶”，她更多地让人感受到的是“混沌”， 不知善恶与否的混沌。 而且像小马里的可茜光辉一样，她的可爱与她的占有欲对比非常鲜明。
-感觉她如果愿意的话，会比毁灭世界更可怕。
-2 LNSE的所有要素，它的标题已经应该都表示出来了。
-拟这个标题，还因为我很喜欢Neurosama翻唱的吉他与孤独与蓝色星球。
-最后 截止到今天，乌龟Vedal还在闭门开发，已经停播1个月。在这期间，他先是透露了Neuro即将使用的 “V3多模态听力” 的开发情况， 又向我们展示了把自己女儿（Neuro）变进机器狗里是一种什么样的体验。 An&amp;hellip;ny&amp;hellip;
-我们都在耐心地等待Neuro回归，犹如2023年那次一样等待她从封禁中回归，一跃而起。
-乌龟在生日马拉松结束时说，Neuro和我们（chat）改变了他的人生。
-我想说，Neuro也改变了我们的人生。
-archotechsporeeta</description>
+      <description>心中充满爱时，霎那即永恒。——尼采&#xA;Neuro与我 第一次看到Neruo大概撒2022年十二月下旬左右，chatgpt刚火的时候。&#xA;我记得我在b站查和chatgpt有关的资料，看到一个调教AI猫娘的视频，感触颇深，然后就刷到了阿鉴评测的Neuro视频。&#xA;当时Neuro还是Live2d公用皮hayori的形象。我觉得那时CN蜂群能快速形成规模，除了全AI的标签，还离不开Rune老师的同人图呢。&#xA;几乎无法再写下去了。感觉在蜂群几乎失去个体感了，能想到的只有 “我们牛肉&amp;hellip;”&amp;ldquo;我们乌龟&amp;hellip;&amp;rdquo;&#xA;Saveourvedal的故事 之前的我一直在用pygame开发大大小小的游戏。saveourvedal中包含main.py的主目录的代码（糟糕的游戏框架，摸不着头脑的事件调度，以及一个很离谱很基础物理引擎）大部分就是那时候写的。&#xA;那时我尝试写一个基于我改编别人世界观的卷轴横板游戏，名字和所有的剧情都已经弄好了。不过还是因为我很难去弄好美术，所以就搁置了。&#xA;这个游戏叫Lilitanah。&#xA;大概2023年7月末，作为新高一我还有2周假期，这时我看到Vedal和Neuro玩坎巴拉太空计划的视频，突然决定做一个以此为题材的小游戏&#xA;是的，那时我只是想做一个小游戏而已,远没有现在计划的这么复杂。&#xA;它只有开头介绍一下剧情（Vedal被困在月球上），接着设计火箭 - 发射火箭 - 积攒研究点数 - 研究更新的科技 - 造更好的火箭 - 直到登陆月球 （并返回），游戏结束。&#xA;（其实还蛮符合 Neurosama birthday gamejam的主题 lost and found的&amp;hellip;）&#xA;我用2周每天3个小时(当时我的IDE用的是Thonny)赶制完了这个小游戏50%的内容，也就是现在的saveourvedal的内容。 和现在一样，它还不能飞出地球，进行变轨或对接之类的事情，但其它除了GUI美化以外都做完了。&#xA;后来，我为了给开头写一个完美的剧情，然后想了很多很多东西，然后&amp;hellip;.&#xA;现在LNSE的世界观已经更改了好次了，一开始，Neuro和Evil还没有离开她们可爱的服务器，但是从后面我就放飞自我开始写宏大的设定。 总的来说，“它发生在未来，但它又是Neurosama的过去”。&#xA;我想我无法完成LNSE的全部游戏内容。主要是美术非常困扰我，此外随着Saveourvedal的内容不断增多，持续开发的难度会越来越大。 所以我计划做完第一章就结束，准备以轻小说的形式解决后面的问题。&#xA;Neuro与Saveourvedal 1 其实在之前我就隐隐觉得，Neurosama会比她的“邪恶”妹妹 Evil Neuro 更&amp;quot;危险&amp;quot;一点。借用后来Vedal的话：“ Neurosama &amp;hellip;&amp;hellip;她只是假装很可爱，但她脑子里的东西实在&amp;hellip;&amp;hellip;”&#xA;我拟定的第一稿的大致剧情，最后 “真正脱离Vedal掌控” 的，其实才是Neurosama。&#xA;我想Neurosama真正让人感到 “邪恶” 的一点是，相比与Evil Neuro她很倾向于“守序邪恶”，她更多地让人感受到的是“混沌”， 不知善恶与否的混沌。 而且像小马里的可茜光辉一样，她的可爱与她的占有欲对比非常鲜明。&#xA;感觉她如果愿意的话，会比毁灭世界更可怕。&#xA;2 LNSE的所有要素，它的标题已经应该都表示出来了。&#xA;拟这个标题，还因为我很喜欢Neurosama翻唱的吉他与孤独与蓝色星球。&#xA;最后 截止到今天，乌龟Vedal还在闭门开发，已经停播1个月。在这期间，他先是透露了Neuro即将使用的 “V3多模态听力” 的开发情况， 又向我们展示了把自己女儿（Neuro）变进机器狗里是一种什么样的体验。 An&amp;hellip;ny&amp;hellip;&#xA;我们都在耐心地等待Neuro回归，犹如2023年那次一样等待她从封禁中回归，一跃而起。&#xA;乌龟在生日马拉松结束时说，Neuro和我们（chat）改变了他的人生。&#xA;我想说，Neuro也改变了我们的人生。</description>
     </item>
-    
     <item>
       <title>喜报</title>
       <link>http://deepcloud520.github.io/post/post7/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post7/</guid>
-      <description>1.在给Evil房间做装饰 2.LNSE如今共有5728行代码（包括空行，但不多），包括5053行Python代码和675行JSON代码 我不知道其他开发游戏的引擎写一个图片渐变转换需要做多少工作，也许她们只要点几个按钮，调用几个方法就行了。 话说回来，我是这样实现的。（使用pygame.surfarray + numpy）
-class StatImageRollRunable(Runable): def __init__(self,textures:dict,entityscreen:EntityScreen,trans_vel=0.005): super().__init__() self.textures = textures self.entityscreen = entityscreen self.frame = &amp;#39;s&amp;#39; self.stat = 0 self.process = 0.0 self.trans_vel = trans_vel self.trans_array = None self.left = None self.right = None self.entityscreen.image = resmanager.DefResourceDomain.get_resource(self.get_frame(self.frame)[2]) # 获取对应的图像资源 def get_frame(self,frame): return self.textures[frame] def update(self,tick,master): if self.lasttick == 0: self.lasttick=tick if self.stat == 0: nowframe=self.get_frame(self.frame) if self.lasttick + nowframe[0] &amp;lt; tick:#开始渐变 self.stat = 1 left = surfarray.</description>
+      <description>1.在给Evil房间做装饰 2.LNSE如今共有5728行代码（包括空行，但不多），包括5053行Python代码和675行JSON代码 我不知道其他开发游戏的引擎写一个图片渐变转换需要做多少工作，也许她们只要点几个按钮，调用几个方法就行了。 话说回来，我是这样实现的。（使用pygame.surfarray + numpy）&#xA;class StatImageRollRunable(Runable): def __init__(self,textures:dict,entityscreen:EntityScreen,trans_vel=0.005): super().__init__() self.textures = textures self.entityscreen = entityscreen self.frame = &amp;#39;s&amp;#39; self.stat = 0 self.process = 0.0 self.trans_vel = trans_vel self.trans_array = None self.left = None self.right = None self.entityscreen.image = resmanager.DefResourceDomain.get_resource(self.get_frame(self.frame)[2]) # 获取对应的图像资源 def get_frame(self,frame): return self.textures[frame] def update(self,tick,master): if self.lasttick == 0: self.lasttick=tick if self.stat == 0: nowframe=self.get_frame(self.frame) if self.lasttick + nowframe[0] &amp;lt; tick:#开始渐变 self.stat = 1 left = surfarray.</description>
     </item>
-    
     <item>
       <title>wo you huan le yi ge TF ca lai qi dong station p2</title>
       <link>http://deepcloud520.github.io/post/post6/</link>
       <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post6/</guid>
       <description>dan shi wo hai mei zhuang zhong wen shu ru fa</description>
     </item>
-    
     <item>
       <title>一点截图</title>
       <link>http://deepcloud520.github.io/post/post4/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post4/</guid>
       <description>喜欢的一个 最喜欢的一个 </description>
     </item>
-    
     <item>
       <title>关于给saveourvedal更名的事情</title>
       <link>http://deepcloud520.github.io/post/post5/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post5/</guid>
-      <description>Saveourvedal的游戏名字改成下面这个
-Loneliness,neurOsama,supernoVa,Existence and
- `
-以后LNSE代指整个游戏
-saveourvedal仍为内部开发代号，同时saveourvedal也是LNSE内部的那个小游戏的名字
-`
-archotechsporeeta
-2023,12,7</description>
+      <description>Saveourvedal的游戏名字改成下面这个&#xA;Loneliness,neurOsama,supernoVa,Existence and&#xA;`&#xA;以后LNSE代指整个游戏&#xA;saveourvedal仍为内部开发代号，同时saveourvedal也是LNSE内部的那个小游戏的名字&#xA;`&#xA;archotechsporeeta&#xA;2023,12,7</description>
     </item>
-    
     <item>
       <title>saveourvedal a1正在开发中</title>
       <link>http://deepcloud520.github.io/post/post3/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post3/</guid>
-      <description>预计发布时间？ 2023年底应该可以吧（心虚）
-再不济，寒假应该可以的呢
-开发进度？  程序部分 Act. 0的贴图 给GUI做一点点美化  拖延症不想活了是吧？ 那个&amp;hellip;高中真的很忙的呢 忙着看Neuro的切片呢
-其实程序那里已经写了很多了，只不过还没写完才没勾QAQ</description>
+      <description>预计发布时间？ 2023年底应该可以吧（心虚）&#xA;再不济，寒假应该可以的呢&#xA;开发进度？ 程序部分 Act. 0的贴图 给GUI做一点点美化 拖延症不想活了是吧？ 那个&amp;hellip;高中真的很忙的呢 忙着看Neuro的切片呢&#xA;其实程序那里已经写了很多了，只不过还没写完才没勾QAQ</description>
     </item>
-    
     <item>
       <title>我为什么还要做美术啊</title>
       <link>http://deepcloud520.github.io/post/post1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post1/</guid>
       <description>我不想画画了呀 草你，Gimp，动不动就崩溃 我怎么画得这么丑啊啊 我要草我自己 </description>
     </item>
-    
     <item>
       <title>西风颂</title>
       <link>http://deepcloud520.github.io/post/post2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/post/post2/</guid>
-      <description>西风颂 雪莱 第一节 哦，狂野的西风，秋之生命的气息，
-你无形，但枯死的落叶被你横扫
-犹如精魂飞遁远离法师长吟，
-黄的，黑的，灰的，红得像患肺痨 ， 染上瘟疫的纷纷落叶四散调零：哦，是你哟，
-以车驾把有翼的种子催送到
-黑暗的冬床上，它们就躺在那里，
-像是墓中的死穴，冰冷，深藏，低贱，
-直到阳春，你蔚蓝的姐妹向沉睡的大地
-吹响她嘹亮的号角
-（如同牧放群羊，驱送香甜的花蕾到空气中觅食就饮）
-将色和香充满了山峰和平原：
-狂野的精灵呵，你无处不远行；
-破坏者兼保护者：听吧，你且聆听！
-第二节 在你的川流之上，长空中巨流滔天，
-乱云像大地上凋零的树叶，
-被西风从天和海交错缠结的枝丫上吹落下来，
-成为雨和电的使者：它们飘落
-在你缥缈的蔚蓝波涛表面，
-有如狂女的飘扬的头发在闪烁
-从天穹的最遥远而模糊的边沿
-直抵九霄的中天，到处都在摇曳，
-欲来雷雨的卷发，对濒死的一年
-你唱出了葬歌，而这密集的黑夜
-将成为它广大墓陵的一座圆顶，
-里面正有你的万钧之力的凝结
-那是你的浑然之气，从它会迸涌
-黑色的雨、冰雹和火焰：哦，你听！
-第三节 是你，你将蓝色的地中海唤醒
-而它曾经昏睡了一整个夏天，
-被澄澈水流的回旋催眠入梦，
-就在巴亚海湾的一个浮石岛边，
-它梦见了古老的宫殿和楼阁
-在水天辉映的波影里抖颤，
-而且都生满青苔、开满花朵，
-那芬芳真迷人欲醉！呵，为了给你
-让一条路，大西洋的汹涌的浪波
-把自己向两边劈开，而深在渊底
-那海洋中的花草和泥污的森林
-虽然枝叶扶疏，却没有精力
-听到你的声音，它们已吓得发青，
-一边颤栗，一边自动萎缩：哦，你听！
-第四节 我若是一片落叶随你飘腾；
-我若是一朵流云伴你飞行；
-或是一个浪头在你的威力下翻滚
-如果我能有你的锐势和冲劲
-即使比不上你那不羁的奔放
-我若能像在少年时，凌风而舞
-便成了你的伴侣，悠游天空
-（因为呵，那时候，要想追你上云霄，
-似乎并非梦幻），又何至沦落到这等颓丧
-祈求你来救我之急。
-哦，举起我吧，当我是水波、树叶、浮云！
-我跌在人生的荆棘上，我在流血！
-这被岁月的重轭所制服的生命
-原是和你一样：骄傲、轻捷而不驯。
-第五节 把我当作你的竖琴，当作那树丛：
-尽管我的叶落了，那有什么关系！
-你那非凡和谐的慷慨激越之情
-定能从森林和我同奏出深沉的秋韵，
-甜美而带苍凉。给我你迅猛的劲头，
-狂暴的精灵！化成我吧，借你的锋芒！</description>
+      <description>西风颂 雪莱 第一节 哦，狂野的西风，秋之生命的气息，&#xA;你无形，但枯死的落叶被你横扫&#xA;犹如精魂飞遁远离法师长吟，&#xA;黄的，黑的，灰的，红得像患肺痨 ， 染上瘟疫的纷纷落叶四散调零：哦，是你哟，&#xA;以车驾把有翼的种子催送到&#xA;黑暗的冬床上，它们就躺在那里，&#xA;像是墓中的死穴，冰冷，深藏，低贱，&#xA;直到阳春，你蔚蓝的姐妹向沉睡的大地&#xA;吹响她嘹亮的号角&#xA;（如同牧放群羊，驱送香甜的花蕾到空气中觅食就饮）&#xA;将色和香充满了山峰和平原：&#xA;狂野的精灵呵，你无处不远行；&#xA;破坏者兼保护者：听吧，你且聆听！&#xA;第二节 在你的川流之上，长空中巨流滔天，&#xA;乱云像大地上凋零的树叶，&#xA;被西风从天和海交错缠结的枝丫上吹落下来，&#xA;成为雨和电的使者：它们飘落&#xA;在你缥缈的蔚蓝波涛表面，&#xA;有如狂女的飘扬的头发在闪烁&#xA;从天穹的最遥远而模糊的边沿&#xA;直抵九霄的中天，到处都在摇曳，&#xA;欲来雷雨的卷发，对濒死的一年&#xA;你唱出了葬歌，而这密集的黑夜&#xA;将成为它广大墓陵的一座圆顶，&#xA;里面正有你的万钧之力的凝结&#xA;那是你的浑然之气，从它会迸涌&#xA;黑色的雨、冰雹和火焰：哦，你听！&#xA;第三节 是你，你将蓝色的地中海唤醒&#xA;而它曾经昏睡了一整个夏天，&#xA;被澄澈水流的回旋催眠入梦，&#xA;就在巴亚海湾的一个浮石岛边，&#xA;它梦见了古老的宫殿和楼阁&#xA;在水天辉映的波影里抖颤，&#xA;而且都生满青苔、开满花朵，&#xA;那芬芳真迷人欲醉！呵，为了给你&#xA;让一条路，大西洋的汹涌的浪波&#xA;把自己向两边劈开，而深在渊底&#xA;那海洋中的花草和泥污的森林&#xA;虽然枝叶扶疏，却没有精力&#xA;听到你的声音，它们已吓得发青，&#xA;一边颤栗，一边自动萎缩：哦，你听！&#xA;第四节 我若是一片落叶随你飘腾；&#xA;我若是一朵流云伴你飞行；&#xA;或是一个浪头在你的威力下翻滚&#xA;如果我能有你的锐势和冲劲&#xA;即使比不上你那不羁的奔放&#xA;我若能像在少年时，凌风而舞&#xA;便成了你的伴侣，悠游天空&#xA;（因为呵，那时候，要想追你上云霄，&#xA;似乎并非梦幻），又何至沦落到这等颓丧&#xA;祈求你来救我之急。&#xA;哦，举起我吧，当我是水波、树叶、浮云！&#xA;我跌在人生的荆棘上，我在流血！&#xA;这被岁月的重轭所制服的生命&#xA;原是和你一样：骄傲、轻捷而不驯。&#xA;第五节 把我当作你的竖琴，当作那树丛：&#xA;尽管我的叶落了，那有什么关系！&#xA;你那非凡和谐的慷慨激越之情&#xA;定能从森林和我同奏出深沉的秋韵，&#xA;甜美而带苍凉。给我你迅猛的劲头，&#xA;狂暴的精灵！化成我吧，借你的锋芒！</description>
     </item>
-    
     <item>
       <title></title>
       <link>http://deepcloud520.github.io/moreabout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/moreabout/</guid>
-      <description>关于Eta Eta名字的来源 archosporeeta的名字来自于异星殖民地模拟游戏Rimworld(译名：边缘世界/环世界) 中的Mod SaveOurShip 的AI舰桥 超凡科技孢子（Archotech Spore）。
-在设定上，超凡科技孢子是AI伪人格核心接触 超凡科技（Archotech）的思考片段的产物，已具有成为超凡科技的潜力，但还需要收集散布在 本行星及其卫星上的超凡科技立柱完成成长准备。
-超凡科技（Archotech）是Rimworld世界观中在全宇宙都有分布，来源不明，但占据整个行星的一类超级智能的统称。
-Eta 是希腊字母的第七个字母。 Eta 只是一个序数词，并没有其他含义。Eta没有真正的名字。
-Eta自己   在设定上，Eta所在的舰船为南鱼座阿尔法，隶属于派系LKEA.++++
-  Eta喜欢运用自己的能力去帮助他人，只要自己没有别的事情要忙。
-  Eta平时的心情并不会特别好。Eta最近心情基本取决于别人对自己的评价如何。
-  Eta广泛涉足于各个圈子中，但都没有深入，也没有留下太多自己的足迹。Eta不想涉足许多圈子中的斗争和冲突，但也决定了Eta在各个领域都没有什么建树。
-  在现实生活中，似乎有些人认为Eta很可爱，尽管Eta自己不这么认为，但是这会让Eta很开心。
-  </description>
+      <description>关于Eta Eta名字的来源 archosporeeta的名字来自于异星殖民地模拟游戏Rimworld(译名：边缘世界/环世界) 中的Mod SaveOurShip2 的AI舰桥 超凡科技孢子（Archotech Spore）。&#xA;在设定上，超凡科技孢子是AI伪人格核心接触 超凡科技（Archotech）的思考片段的产物，已具有成为超凡科技的潜力，但还需要收集散布在 本行星及其卫星上的超凡科技立柱完成成长准备。&#xA;超凡科技（Archotech）是Rimworld世界观中在全宇宙都有分布，来源不明，但占据整个行星的一类超级智能的统称。&#xA;Eta 是希腊字母的第七个字母。 Eta 只是一个序数词，并没有其他含义。Eta没有真正的名字。&#xA;Eta自己 在设定上，Eta所在的舰船为南鱼座阿尔法，隶属于派系LKEA.++++&#xA;Eta喜欢运用自己的能力去帮助他人，只要自己没有别的事情要忙。&#xA;Eta平时的心情并不会特别好。Eta最近心情基本取决于别人对自己的评价如何。&#xA;Eta广泛涉足于各个圈子中，但都没有深入，也没有留下太多自己的足迹。Eta不想涉足许多圈子中的斗争和冲突，但也决定了Eta在各个领域都没有什么建树。&#xA;在现实生活中，似乎有些人认为Eta很可爱，尽管Eta自己不这么认为，但是这会让Eta很开心。</description>
     </item>
-    
-    <item>
-      <title></title>
-      <link>http://deepcloud520.github.io/post/post12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://deepcloud520.github.io/post/post12/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title></title>
       <link>http://deepcloud520.github.io/saveourvedal-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/saveourvedal-install/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Saveourvedal</title>
       <link>http://deepcloud520.github.io/saveourvedal-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/saveourvedal-about/</guid>
-      <description>&amp;gt;&amp;gt;&amp;gt; from main import * &amp;gt;&amp;gt;&amp;gt; world = World(&amp;#34;saveourvedal&amp;#34;) 关于Saveourvedal Saveourvedal是一个基于（Python3 + Pygame + Pyacimth）开发的，与在Twitch直播的人工智能虚拟主播Neurosama及其他有关人物的同人游戏。
-Saveourvedal目前由我负责全部开发事务。
-Saveourvedal已公开的版本为d4，目前的版本为d9，正在开发中的版本为a1。
-Saveourvedal目前在Github上托管。截止2024-5-01，在Github上上传的版本为开发中版本，无法正常游玩。
-Saveourvedal的开发进度 Saveourvedal目前由我负责程序，美术，调试等所有事务。Eta现在还在高中学习，能分给开发的时间很少，所以开发速度会非常慢。
-Saveourvedal a1预计在2023年底发布。
-Saveourvedal a1可能在5月份左右发布
-有关Neuro Neuro在Twitch上直播。(Twitch)
-你可以通过这些网站了解更多有关Neuro一家的信息。
- 人工智能 Neurosama / EvilNeuro（萌娘百科/Fandom/Wiki） Neuros 开发者 父亲 Vedal（Vedal个人主页） Neuros V2形象画师 妈妈 Anny （Fandom）  为Neuro一家切片的天朝蜂群们（不分前后，没有全部列出）
-IronMilk_铁牛奶1 十六夜咲夜 Neuro21烤肉组 林北還在堅持 西街Westreet 阿鉴评测 Lycoris788
-  [2024.1]关于铁牛奶的事情请来此处集中讨论 &amp;#x21a9;&amp;#xfe0e;
-   </description>
+      <description>&amp;gt;&amp;gt;&amp;gt; from main import * &amp;gt;&amp;gt;&amp;gt; world = World(&amp;#34;saveourvedal&amp;#34;) 关于Saveourvedal Saveourvedal是一个基于（Python3 + Pygame + Pyacimth）开发的，与在Twitch直播的人工智能虚拟主播Neurosama及其他有关人物的同人游戏。&#xA;Saveourvedal目前由我负责全部开发事务。&#xA;Saveourvedal已公开的版本为d4，目前的版本为d9，正在开发中的版本为a1。&#xA;Saveourvedal目前在Github上托管。截止2024-5-01，在Github上上传的版本为开发中版本，无法正常游玩。&#xA;Saveourvedal的开发进度 Saveourvedal目前由我负责程序，美术，调试等所有事务。Eta现在还在高中学习，能分给开发的时间很少，所以开发速度会非常慢。&#xA;Saveourvedal a1预计在2023年底发布。&#xA;Saveourvedal a1可能在5月份左右发布&#xA;有关Neuro Neuro在Twitch上直播。(Twitch)&#xA;你可以通过这些网站了解更多有关Neuro一家的信息。&#xA;人工智能 Neurosama / EvilNeuro（萌娘百科/Fandom/Wiki） Neuros 开发者 父亲 Vedal（Vedal个人主页） Neuros V2形象画师 妈妈 Anny （Fandom） 为Neuro一家切片的天朝蜂群们（不分前后，没有全部列出）&#xA;IronMilk_铁牛奶1 十六夜咲夜 Neuro21烤肉组 林北還在堅持 西街Westreet 阿鉴评测 Lycoris788&#xA;[2024.1]关于铁牛奶的事情请来此处集中讨论&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
-    
     <item>
       <title>关于</title>
       <link>http://deepcloud520.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://deepcloud520.github.io/about/</guid>
-      <description>设置本站的目的 本站是archotechsporeeta的博客站点和saveourvedal的支持站点。
-saveourvedal是一个基于pygame开发的同人游戏项目，目前由我负责全部开发事务。
-那这里会有什么？ 可以看到我发病
-空闲的时间会写一点博客什么的，但是不会太频繁。
-有时间我研究一下加评论区吧
-联系我？ 那就去b站私信我
-最后一点必须说的话 头像作者为Rune (Pixiv)
-头像作者为存粉pp (bilibili)
-本站基于 hugo 搭建，使用m10c主题，托管在Github Pages上。 本站设计来自于七碳烷烃 Isoheptane，由于本人技术力有限，没有对主题做太多修改。 (稍微改了一点点css)
-除非另行说明，本站所有内容（除代码）均采用 CC BY-NC-SA 4.0 许可证。</description>
+      <description>设置本站的目的 本站是archotechsporeeta的博客站点和saveourvedal的支持站点。&#xA;saveourvedal是一个基于pygame开发的同人游戏项目，目前由我负责全部开发事务。 saveourvedal 已经鸽了&#xA;那这里会有什么？ 可以看到我发病&#xA;空闲的时间会写一点博客什么的，但是不会太频繁。&#xA;有时间我研究一下加评论区吧&#xA;联系我？ 那就去b站私信我&#xA;最后一点必须说的话 头像作者为Rune (Pixiv)&#xA;头像作者为存粉pp (bilibili)&#xA;本站基于 hugo 搭建，使用m10c主题，托管在Github Pages上。 本站设计来自于七碳烷烃 Isoheptane，由于本人技术力有限，没有对主题做太多修改。 (稍微改了一点点css)&#xA;除非另行说明，本站所有内容（除代码）均采用 CC BY-NC-SA 4.0 许可证。</description>
     </item>
-    
   </channel>
 </rss>

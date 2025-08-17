@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on archotechsporeeta</title>
-    <link>http://deepcloud520.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on archotechsporeeta</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://deepcloud520.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rimworld</title>
-      <link>http://deepcloud520.github.io/tags/rimworld/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://deepcloud520.github.io/tags/rimworld/</guid>
+      <link>http://localhost:1313/tags/rimworld/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rimworld/</guid>
       <description></description>
     </item>
     <item>
       <title>日常</title>
-      <link>http://deepcloud520.github.io/tags/%E6%97%A5%E5%B8%B8/</link>
+      <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://deepcloud520.github.io/tags/%E6%97%A5%E5%B8%B8/</guid>
+      <guid>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Saveourvedal</title>
-      <link>http://deepcloud520.github.io/tags/saveourvedal/</link>
+      <link>http://localhost:1313/tags/saveourvedal/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://deepcloud520.github.io/tags/saveourvedal/</guid>
+      <guid>http://localhost:1313/tags/saveourvedal/</guid>
       <description></description>
     </item>
   </channel>
